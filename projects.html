@@ -1,0 +1,111 @@
+<!--this is the projects page-->
+<head>
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="styles.css">
+   <video id="background-video" autoplay loop muted poster="/background.mp4">
+     <source src="background.mp4" type="video/mp4">
+   </video>
+   <title>My Portfolio</title>
+ </head>
+  
+   
+
+  <html>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+
+              <!--dropdown for projects.html -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://whittengreen.github.io/PacMan-Eating-Your-Screen/">Pac Man</a></li>
+                  <li><a class="dropdown-item" href="https://whittengreen.github.io/Eye-Exercise/">Eye Exercise</a></li>
+                  <li><a class="dropdown-item" href="https://whittengreen.github.io/MIT-Bus-Stops/">Bus Tracker</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>    
+
+     
+     
+
+     <div id="card" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://raw.githubusercontent.com/WhittenGreen/PacMan-Eating-Your-Screen/main/pacman1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pac Man Exercise</h5>
+              <p class="card-text">This is an excerice in moving a Pac Man accross the screen, eating as he goes, and then returning back once it has hit the other side of the screen.</p>
+              <a href="https://github.com/WhittenGreen/PacMan-Eating-Your-Screen">Github Repository</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                  Click the link to watch him eat across the screen!
+              </small>
+              <a href="https://whittengreen.github.io/PacMan-Eating-Your-Screen/">Pac Man</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="eyes.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eye Movement Project</h5>
+              <p class="card-text">This is an excercise using JS to follow your house using the visual of eyes watching your mouse move.</p>
+              <a href="https://github.com/WhittenGreen/Eye-Exercise">Github Repository</a>
+
+            </div>
+            <div class="card-footer">
+                 <small class="text-muted">
+                     Click the link to have your computer watch your movement!
+                     
+              
+                </small>
+                <a href="https://whittengreen.github.io/Eye-Exercise/">Eyes Exercise</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://previews.123rf.com/images/rudall30/rudall301205/rudall30120500052/13792509-cartoon-illustrazione-di-una-fermata-d-autobus.jpg?fj=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bus Stop Exercise</h5>
+              <p class="card-text">This is an exercise to show you where your bus stop is between MIT and Harvard in the city of Boston.</p>
+              <a href="https://github.com/WhittenGreen/MIT-Bus-Stops">Github Repository</a>
+              
+
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                  Click the link to see where the next bus stop is!
+              </small>
+              <a href="https://whittengreen.github.io/MIT-Bus-Stops/">Bus Stops</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
